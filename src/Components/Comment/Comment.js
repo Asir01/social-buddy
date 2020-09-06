@@ -17,7 +17,7 @@ const Comment = (props) => {
             <Paper className="com mt-4 p-3 d-flex">
                 <img src={image} alt="profilePic"/>
                 <div className="ml-4">
-                    <p>postId: {postId}</p>
+                    <p>PostId: {postId}</p>
                     <h5>{email}</h5>
                     <h3>{name}</h3>
                     <p>{body}</p>

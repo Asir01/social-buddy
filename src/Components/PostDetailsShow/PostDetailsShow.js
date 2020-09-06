@@ -24,7 +24,7 @@ const PostDetailsShow = (props) => {
                             <p>{body}</p>
                        </div>
                    </Card>
-                  <h2 className="text-primary text-center mt-4">post's Comments: {commentFilter.length}</h2>
+                  <h2 className="text-primary text-center mt-4">Social Buddy's Comments: {commentFilter.length}</h2>
                    {commentFilter.map(cmnt => 
                        <Grid item xs={12}>
                            <Comment comment={cmnt}></Comment>
